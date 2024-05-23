@@ -11,12 +11,15 @@
         padding: 0;
         background-color: rgb(168, 211, 191);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image:url(challenges.jpg) ;
+        background-size: cover;
+        background-attachment:fixed ;
     }
     .container{
         border: 4px  solid black;
         text-align: center;
         padding: 10px;
-        background-color: rgb(136, 197, 177);
+        background-color: rgb(204, 177, 104);
         box-sizing: border-box;
     }
     h1{
@@ -26,22 +29,19 @@
         border-radius: 50%;
     }
     .content{
-        background-color: brown;
         padding: 10px; 
-        border: solid black;
-    }
-    .element{
-        background-color:  rgb(173, 88, 103);
-        padding: 10px;
-        border: solid black;
+        color: aliceblue; 
     }
     .vision{
         border-radius: 100%;
         border-color: aliceblue;
     }
-   
+    .element{
+  
+        padding: 10px;
+        color: white;
+    }
     
-
 </style>
 <body>
     <div class="container">
@@ -55,7 +55,7 @@
     <br>
 <div class="content">
 <h3>What is HTML?</h3>
-<p>HTML stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
+<p>HTML stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage. It's a <mark>markup language</mark> that web developers use to structure and describe the content of a webpage (not a programming language).
  HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.</p>
 <br>
 <a href="#web"><img src="related-1.jpg" height="250px" width="250px" alt="laptop" class="vision"></a>
@@ -70,10 +70,10 @@
     </ol>
     <p>You can learn more at the MDN Web Docs.</p>
    <br>
-    <a href="#web"><img src="related-3.jpg" height="50%" width="50%" ></a>
+    <a href="#web"><img src="related-3.jpg" height="50%" width="50%"></a>
 </div>
 <br>
-    <div style="background-color: burlywood;padding: 10px; border: solid black;">
+    <div style="background-image:url(related-2.jpg); background-size: cover; color:black; padding: 10px; border: solid black; ">
     <h3>Why should you learn HTML?</h3>
     <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
     <ol>
@@ -84,6 +84,6 @@
        <li>To have fun 😃</li>
     </ol>
 <h4 style="text-align: center;">Hopefully you learned something new here. See you next time!</h4>
-    </div>
+</div>
 </body>
 </html>
